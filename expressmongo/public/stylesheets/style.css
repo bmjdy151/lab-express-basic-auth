@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightgray;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.pic-container img{
+  width:80%;
+}
+
+.instruction-container{
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  width:60%;
+  margin:30px 20%;
+  padding:20px;
+}
+.form-container{
+  display: flex;
+  flex-flow:column nowrap;
+  padding:20px 0px;
+}
+
+.instruction-container h1,.instruction-container p{
+  text-align: center;
+}
+.form-container label{
+  text-align: center;
+}
+.form-container button{
+  margin:20px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
